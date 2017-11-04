@@ -3,6 +3,6 @@ def display_rainbow(colors)
   result = ""
   colors.each do |color|
     result += "#{color[0]}: #{color}, "
-  puts "R: #{colors[0]}, O: #{colors[1]}, Y: #{colors[2]}, G: #{colors[3]}, B: #{colors[4]}, I: #{colors[5]}, V: #{colors[6]}"
+  puts result
 end
 display_rainbow(['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'])
